@@ -43,7 +43,8 @@ namespace EjerPooTda
 
             foreach (Cliente cliente in listaClientes)
             {
-                Console.WriteLine(cliente);
+                Console.WriteLine("DNI: " + cliente.dni + ", Nombre: " + cliente.nombre + ", Apellidos: " + cliente.apellidos + ", Edad: " + cliente.edad +
+                    ", Dirección: " + cliente.direccion);
             }
         }
     }
